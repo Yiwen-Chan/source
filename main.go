@@ -13,17 +13,21 @@ type Listen struct {
 
 func main() {
 	http.Handle("/", &Listen{})
-	http.ListenAndServe("127.0.0.1:8001", nil)
+	http.ListenAndServe("0.0.0.0:4001", nil)
 }
 
 func (l *Listen) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	if r.URL.Path == "/favicon.ico" {
 		return
 	}
-	out, err := Cmd("git", []string{"pull", "origin", "main"})
-	if err != nil {
-		panic(err)
-	}
+	var out string
+	out, _ = Cmd("git", []string{"pull", "origin", "main"})
+	fmt.Println(out)
+	out, _ = Cmd("docker", []string{"cp", "/root/source/_data", "blog:/home/hexo/blog/source"})
+	fmt.Println(out)
+	out, _ = Cmd("docker", []string{"cp", "/root/source/_posts", "blog:/home/hexo/blog/source"})
+	fmt.Println(out)
+	out, _ = Cmd("docker", []string{"cp", "/root/source/link", "blog:/home/hexo/blog/source"})
 	fmt.Println(out)
 }
 
