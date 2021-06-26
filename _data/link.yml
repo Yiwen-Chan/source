@@ -1,0 +1,31 @@
+- class_name: 友情链接
+  link_list:
+    - name: Rainchan
+      link: https://rainchan.win/
+      avatar: https://gravatar.loli.net/avatar/f7e8af6d341b76ad3de6757a8f86f2b4?d=mp&v=1.3.10
+      descr: 饿饿，饭饭
+    - name: Wdvxdr
+      link: https://www.wdvxdr.com/
+      avatar: https://www.wdvxdr.com/images/avatar.jpg
+      descr: wdvxdr yyds!
+    - name: bleatingsheep
+      link: https://bleatingsheep.org/
+      avatar: https://bleatingsheep.org/%E9%92%BB%E7%9F%B3%E5%A4%B4%E5%83%8F.png
+      descr: loli?! loli!
+    - name: Richard Chien
+      link: https://stdrc.cc/
+      avatar: https://avatars.githubusercontent.com/u/5317095?v=4
+      descr: rcnb!
+    - name: Kyomotoi
+      link: https://kyomotoi.moe/
+      avatar: https://avatars.githubusercontent.com/u/37587870?v=4
+      descr: kimo?
+    - name: Gaein nidb
+      link: https://blog.gaein.cn/
+      avatar: https://avatars.githubusercontent.com/u/36162655?v=4
+      descr: ATRI
+    - name: Sagiri
+      link: https://blog.sagiri-web.com/
+      avatar: https://avatars.githubusercontent.com/u/45849471?v=4
+      descr: kawaii!
+ 
