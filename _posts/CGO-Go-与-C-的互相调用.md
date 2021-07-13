@@ -5,7 +5,7 @@ top_img: https://s3.jpg.cm/2021/07/13/IQEvIu.jpg
 cover: https://s3.jpg.cm/2021/07/13/IQEvIu.jpg
 tags: 
     - Golang
-	- C
+    - C
     - CGO
 ---
 
