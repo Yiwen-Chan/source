@@ -1,8 +1,8 @@
 ---
 title: CGO 类型转换
 date: 2021-07-14 22:11:16
-top_img: https://s3.jpg.cm/2021/07/13/IQEvIu.jpg
-cover: https://s3.jpg.cm/2021/07/13/IQEvIu.jpg
+top_img: https://s3.jpg.cm/2021/07/13/IQFW6y.jpg
+cover: https://s3.jpg.cm/2021/07/13/IQFW6y.jpg
 tags: 
     - Golang
     - C
