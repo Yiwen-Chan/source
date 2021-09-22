@@ -1,8 +1,8 @@
 ---
-title: DB2-docker-安装
+title: DB2 docker 安装
 date: 2021-09-22 10:05:34
-top_img: https://s3.jpg.cm/2021/08/13/Icq29k.jpg
-cover: https://s3.jpg.cm/2021/08/13/Icq29k.jpg
+top_img: https://s3.jpg.cm/2021/09/22/IF6ZEU.jpg
+cover: https://s3.jpg.cm/2021/09/22/IF6ZEU.jpg
 tags: 
     - DB2
     - docker
