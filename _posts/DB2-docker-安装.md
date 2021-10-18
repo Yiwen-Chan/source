@@ -6,8 +6,7 @@ cover: https://s3.jpg.cm/2021/09/22/IF6ZEU.jpg
 tags: 
     - DB2
     - docker
-    - 数据库
-    - Golang
+    - database
 ---
 
 ### 官方文档
