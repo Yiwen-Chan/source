@@ -1,8 +1,8 @@
 ---
 title: Go http 标准库的 SNI 修改
 date: 2021-06-21 07:20:07
-top_img: https://s3.jpg.cm/2021/06/21/IRV4hz.jpg
-cover: https://s3.jpg.cm/2021/06/21/IRV4hz.jpg
+top_img: https://pic1.zhimg.com/80/v2-2be8cb5b831a4eaf19a12081fa52d5d4_720w.jpeg
+cover: https://pic1.zhimg.com/80/v2-2be8cb5b831a4eaf19a12081fa52d5d4_720w.jpeg
 tags: 
     - Golang
     - HTTP
