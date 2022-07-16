@@ -1,3 +1,10 @@
+<!--
+ * @Author: Kanri
+ * @Date: 2022-01-11 16:28:57
+ * @LastEditors: Kanri
+ * @LastEditTime: 2022-07-16 19:48:09
+ * @Description: 
+-->
 ---
 title: WebSocket 协议
 date: 2021-06-26 07:20:07
@@ -57,7 +64,11 @@ Upgrade: websocket
 
 ```
 - FIN: 1 bit
+<<<<<<< HEAD
 ​值为1则表示最后的`frame`。
+=======
+​标识结束帧，除结束帧外均为。
+>>>>>>> 1b0ed7cc3666f628dbb9f03f3671540074e6561b
 
 - RSV1，RSV2，RSV3: 每个1 bit
 必须设置为0，除非扩展了非0值含义的扩展。
@@ -80,8 +91,12 @@ Upgrade: websocket
 `Payload data` 长度
 
 - Masking-Key: 0 or 4 bytes
+<<<<<<< HEAD
 发送的数据与同一帧中的掩码进行过了运算，用于解码 `Payload data`
 运算公式为：payload[i] = origin_data[i] ^ masking_key[i%4] 。
+=======
+发送的数据与同一帧中的掩码进行过了运算，用于解码 `Payload data`。
+>>>>>>> 1b0ed7cc3666f628dbb9f03f3671540074e6561b
 
 - Payload data: (x+y) bytes
 `Payload data` 包括 `Extension data` 和 `Application data`。
